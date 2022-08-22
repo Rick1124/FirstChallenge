@@ -14,7 +14,7 @@ public class Main {
     public static String solution(int[] arr){
         Arrays.sort(arr);
         int sum=0;
-        boolean answer;
+        //boolean answer;
 
         for (int i = 0; i < arr.length - 1 ; i++) {
             sum += arr[i];
